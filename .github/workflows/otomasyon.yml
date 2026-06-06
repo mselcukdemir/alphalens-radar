@@ -2,9 +2,8 @@ name: AlphaLens Sabah Radari
 
 on:
   schedule:
-    # 📌 GitHub UTC saat dilimini kullanır. TSİ 09:30 için buraya 06:30 yazıyoruz.
     - cron: '30 6 * * *'
-  workflow_dispatch: # İstediğiniz an elinizle de tetikleyebilmeniz için buton açar
+  workflow_dispatch:
 
 jobs:
   run-radar:
